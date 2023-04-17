@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>tablas:</h1>
+    <hr>
+    <h2>tabla basica:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>edad</th>
+                <th>color fav</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cintia</td>
+                <td>avendaño</td>
+                <td>23</td>
+                <td>verde</td>
+            </tr>
+            <tr>
+                <td>gaston</td>
+                <td>medrano</td>
+                <td>26</td>
+                <td>azul</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h2>tabla compleja:</h2>
+    <table>
+        <thead>
+            <!-- tr>th*5 -->
+            <tr>
+                <th>lunes</th>
+                <th>martes</th>
+                <th>miercoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">mat</td>
+                <td rowspan="2">fis</td>
+                <td rowspan="2">mat</td>
+                <td rowspan="2">alg</td>
+                <td rowspan="2">prom</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>prog</td>
+                <td colspan="2">fis</td>
+                <td>mat</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

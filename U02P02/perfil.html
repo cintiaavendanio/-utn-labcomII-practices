@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formData</title>
+</head>
+
+<body>
+    <h1>Formulario de datos personales:</h1>
+    <hr><br>
+    <form action="">
+        <label for="student">Tipo de usuario:</label>
+        <input type="text" name="student" id="" readonly value="estudiante">
+        <br><br>
+        <!-- readonly: solo lectura -->
+        <label for="name">Nombre completo:</label>
+        <input type="text" name="name" id="">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="">
+        <br><br>
+        <label for="age">Edad: </label>
+        <input type="number" name="age" id="">
+        <br><br>
+        <label for="nationality">Nacionalidad:</label>
+        <select name="nationality" id="">
+            <option value="arg" selected>Argentina</option>
+            <option value="bra">Brasil</option>
+            <option value="urg">Uruguay</option>
+            <option value="per">Peru</option>
+            <!-- selected: se usa para fijar como predefinido, sino por defecto se pone el primero -->
+        </select>
+        <br><br>
+        <label for="job">Condicion Laboral:</label>
+        <select name="job" id="">
+            <option value="desempleado">desempleado</option>
+            <option value="en busqueda Laboral">En busqueda laboral</option>
+            <option value="trabajo part time">trabajo part time</option>
+            <option value="trabajo full time">trabajo full time</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+            <legend>Gustos personales</legend>
+            <br><br>
+            <label for="music">Gustos musicales</label>
+            <input type="text" name="music" id="">
+            <br><br>
+            <label for="food">Comidas preferidas:</label>
+            <select name="food" id="">
+                <option value="hamburguer">hamburguesas</option>
+                <option value="hotdog">panchitos</option>
+                <option value="rice">arroz</option>
+                <option value="fish">pescadito</option>
+            </select>
+
+            <br><br>
+        </fieldset>
+        <br><br>
+        <input type="button" value="Enviar">
+        <br><br>
+        <label for="checkbox">Recordar datos</label>
+        <input type="checkbox" name="checkbox" id="">
+    </form>
+</body>
+
+</html>
